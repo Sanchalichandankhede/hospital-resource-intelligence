@@ -1,0 +1,15 @@
+date,resource,risk_level,recommendation,trigger,model
+2137-10-11,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2137-10-12,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2137-10-13,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2137-10-14,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2137-10-15,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2137-10-16,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2137-10-17,ICU Beds,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-19,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-20,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-21,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-22,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-23,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-24,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost
+2148-01-25,ED Arrivals,LOW,Current predicted demand is within available capacity. Continue routine monitoring.,Predicted demand matches safe operational thresholds.,XGBoost

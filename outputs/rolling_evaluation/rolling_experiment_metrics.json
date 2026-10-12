@@ -1,0 +1,156 @@
+{
+  "evaluation_name": "California Statewide Inpatient Beds Rolling-Origin Experiment",
+  "dataset_path": "/Users/sanchalichandankhede/Documents/Idea lab/hospital-resource-intelligence/data/processed/california_hospital_capacity_daily.csv",
+  "target": "inpatient_beds_used",
+  "parameters": {
+    "num_origins": 52,
+    "horizon_days": 7,
+    "step_days": 7,
+    "total_evaluated_observations_per_model": 364,
+    "evaluation_start_date": "2023-04-30",
+    "evaluation_end_date": "2024-04-27",
+    "first_cutoff_date": "2023-04-29",
+    "last_cutoff_date": "2024-04-20"
+  },
+  "overall_metrics": {
+    "weekly_seasonal_naive": {
+      "model_name": "Weekly Seasonal Naive (Lag-7 Persistence)",
+      "mae": 711.47,
+      "rmse": 1053.72,
+      "mape": 1.48,
+      "mase": 0.5646
+    },
+    "ridge_regression_recursive": {
+      "model_name": "Ridge Regression (Recursive Autoregressive)",
+      "mae": 727.68,
+      "rmse": 979.58,
+      "mape": 1.51,
+      "mase": 0.5757
+    },
+    "xgboost_recursive": {
+      "model_name": "XGBoost Regressor (Recursive Autoregressive)",
+      "mae": 639.26,
+      "rmse": 939.64,
+      "mape": 1.33,
+      "mase": 0.5072
+    }
+  },
+  "horizon_breakdown": [
+    {
+      "horizon_step": 1,
+      "sample_count": 52,
+      "snaive_mae": 627.56,
+      "snaive_rmse": 822.52,
+      "snaive_mape": 1.34,
+      "snaive_mase": 0.4976,
+      "ridge_mae": 308.84,
+      "ridge_rmse": 394.93,
+      "ridge_mape": 0.66,
+      "ridge_mase": 0.2442,
+      "xgb_mae": 427.97,
+      "xgb_rmse": 545.69,
+      "xgb_mape": 0.91,
+      "xgb_mase": 0.3396
+    },
+    {
+      "horizon_step": 2,
+      "sample_count": 52,
+      "snaive_mae": 678.62,
+      "snaive_rmse": 968.32,
+      "snaive_mape": 1.45,
+      "snaive_mase": 0.5386,
+      "ridge_mae": 503.65,
+      "ridge_rmse": 720.19,
+      "ridge_mape": 1.09,
+      "ridge_mase": 0.3969,
+      "xgb_mae": 564.41,
+      "xgb_rmse": 838.79,
+      "xgb_mape": 1.21,
+      "xgb_mase": 0.4479
+    },
+    {
+      "horizon_step": 3,
+      "sample_count": 52,
+      "snaive_mae": 845.12,
+      "snaive_rmse": 1225.38,
+      "snaive_mape": 1.76,
+      "snaive_mase": 0.6677,
+      "ridge_mae": 823.81,
+      "ridge_rmse": 1029.65,
+      "ridge_mape": 1.71,
+      "ridge_mase": 0.6519,
+      "xgb_mae": 756.76,
+      "xgb_rmse": 1076.26,
+      "xgb_mape": 1.58,
+      "xgb_mase": 0.5981
+    },
+    {
+      "horizon_step": 4,
+      "sample_count": 52,
+      "snaive_mae": 758.63,
+      "snaive_rmse": 1070.51,
+      "snaive_mape": 1.55,
+      "snaive_mase": 0.5994,
+      "ridge_mae": 969.23,
+      "ridge_rmse": 1188.19,
+      "ridge_mape": 1.96,
+      "ridge_mase": 0.7664,
+      "xgb_mae": 747.02,
+      "xgb_rmse": 1008.45,
+      "xgb_mape": 1.53,
+      "xgb_mase": 0.5909
+    },
+    {
+      "horizon_step": 5,
+      "sample_count": 52,
+      "snaive_mae": 734.35,
+      "snaive_rmse": 1085.25,
+      "snaive_mape": 1.5,
+      "snaive_mase": 0.5831,
+      "ridge_mae": 711.34,
+      "ridge_rmse": 988.24,
+      "ridge_mape": 1.44,
+      "ridge_mase": 0.5654,
+      "xgb_mae": 648.01,
+      "xgb_rmse": 963.79,
+      "xgb_mape": 1.32,
+      "xgb_mase": 0.5138
+    },
+    {
+      "horizon_step": 6,
+      "sample_count": 52,
+      "snaive_mae": 686.96,
+      "snaive_rmse": 1159.27,
+      "snaive_mape": 1.41,
+      "snaive_mase": 0.5469,
+      "ridge_mae": 827.79,
+      "ridge_rmse": 1096.73,
+      "ridge_mape": 1.71,
+      "ridge_mase": 0.6545,
+      "xgb_mae": 665.32,
+      "xgb_rmse": 1051.38,
+      "xgb_mape": 1.37,
+      "xgb_mase": 0.5286
+    },
+    {
+      "horizon_step": 7,
+      "sample_count": 52,
+      "snaive_mae": 649.04,
+      "snaive_rmse": 994.39,
+      "snaive_mape": 1.37,
+      "snaive_mase": 0.5187,
+      "ridge_mae": 949.06,
+      "ridge_rmse": 1179.38,
+      "ridge_mape": 2.01,
+      "ridge_mase": 0.7508,
+      "xgb_mae": 665.33,
+      "xgb_rmse": 984.67,
+      "xgb_mape": 1.4,
+      "xgb_mase": 0.5314
+    }
+  ],
+  "capacity_assumptions": {
+    "contemporaneous_capacity_known_in_advance": false,
+    "treatment": "Total capacity (inpatient_beds) is contemporaneous telemetry and was excluded from feature inputs. At each forecast origin T_k, cutoff capacity C_{T_k} was recorded solely as an operational anchor."
+  }
+}

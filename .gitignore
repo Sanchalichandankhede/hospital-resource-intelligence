@@ -1,0 +1,62 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database files
+test.db
+test.db-journal
+
+# Node/Frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Environments and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+
+# macOS metadata
+.DS_Store
+
+# Large external dataset: obtain separately if needed
+data/raw/external/hospital_capacity.csv

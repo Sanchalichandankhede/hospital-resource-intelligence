@@ -1,0 +1,38 @@
+{
+    "icu": {
+        "occupied_beds_lag_1": 0.46415475010871887,
+        "occupied_beds_lag_2": 0.01063014566898346,
+        "occupied_beds_lag_3": 0.04552074894309044,
+        "occupied_beds_lag_7": 0.06507793068885803,
+        "occupied_beds_lag_14": 0.0,
+        "occupied_beds_lag_28": 0.010609429329633713,
+        "occupied_beds_rolling_mean_7": 0.009579509496688843,
+        "occupied_beds_rolling_std_7": 0.012140247970819473,
+        "occupied_beds_rolling_mean_14": 0.0680788904428482,
+        "occupied_beds_rolling_std_14": 0.03384927287697792,
+        "occupied_beds_rolling_mean_28": 0.07437470555305481,
+        "occupied_beds_rolling_std_28": 0.058752287179231644,
+        "day_of_week": 0.030147692188620567,
+        "day_of_month": 0.04160723090171814,
+        "month": 0.07547719776630402,
+        "is_weekend": 0.0
+    },
+    "ed": {
+        "arrivals_lag_1": 0.031463347375392914,
+        "arrivals_lag_2": 0.033951908349990845,
+        "arrivals_lag_3": 0.12970806658267975,
+        "arrivals_lag_7": 0.03645786643028259,
+        "arrivals_lag_14": 0.025701535865664482,
+        "arrivals_lag_28": 0.032035935670137405,
+        "arrivals_rolling_mean_7": 0.2186664491891861,
+        "arrivals_rolling_std_7": 0.0,
+        "arrivals_rolling_mean_14": 0.15592403709888458,
+        "arrivals_rolling_std_14": 0.0,
+        "arrivals_rolling_mean_28": 0.05771419405937195,
+        "arrivals_rolling_std_28": 0.0,
+        "day_of_week": 0.06863529235124588,
+        "day_of_month": 0.12209796160459518,
+        "month": 0.08764346688985825,
+        "is_weekend": 0.0
+    }
+}

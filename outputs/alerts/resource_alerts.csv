@@ -1,0 +1,15 @@
+date,resource,predicted_demand,available_capacity,capacity_gap,risk_level,reason
+2137-10-11,ICU Beds,0.2040682,2.0,1.7959318,LOW,Predicted demand is within safe capacity bounds.
+2137-10-12,ICU Beds,0.23702466,2.0,1.7629753400000001,LOW,Predicted demand is within safe capacity bounds.
+2137-10-13,ICU Beds,0.45047808,2.0,1.54952192,LOW,Predicted demand is within safe capacity bounds.
+2137-10-14,ICU Beds,0.35322234,2.0,1.64677766,LOW,Predicted demand is within safe capacity bounds.
+2137-10-15,ICU Beds,0.28596598,2.0,1.71403402,LOW,Predicted demand is within safe capacity bounds.
+2137-10-16,ICU Beds,0.42808962,2.0,1.57191038,LOW,Predicted demand is within safe capacity bounds.
+2137-10-17,ICU Beds,0.29104054,2.0,1.70895946,LOW,Predicted demand is within safe capacity bounds.
+2148-01-19,ED Arrivals,0.008454948,2.0,1.991545052,LOW,ED arrivals predicted within standard baseline variation.
+2148-01-20,ED Arrivals,0.0150877535,2.0,1.9849122465,LOW,ED arrivals predicted within standard baseline variation.
+2148-01-21,ED Arrivals,0.010669785,2.0,1.989330215,LOW,ED arrivals predicted within standard baseline variation.
+2148-01-22,ED Arrivals,0.005085609,2.0,1.994914391,LOW,ED arrivals predicted within standard baseline variation.
+2148-01-23,ED Arrivals,0.008979381,2.0,1.991020619,LOW,ED arrivals predicted within standard baseline variation.
+2148-01-24,ED Arrivals,0.0,2.0,2.0,LOW,ED arrivals predicted within standard baseline variation.
+2148-01-25,ED Arrivals,0.014552708,2.0,1.985447292,LOW,ED arrivals predicted within standard baseline variation.

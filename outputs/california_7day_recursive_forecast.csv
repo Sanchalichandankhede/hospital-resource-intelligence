@@ -1,0 +1,8 @@
+date,forecast_inpatient_beds_used,assumed_inpatient_beds_capacity,projected_occupancy_pct,model_type,forecast_step,capacity_assumption
+2024-04-28,44765.5,59666.0,75.03,ridge,1,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting
+2024-04-29,45460.9,59666.0,76.19,ridge,2,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting
+2024-04-30,46368.7,59666.0,77.71,ridge,3,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting
+2024-05-01,47141.7,59666.0,79.01,ridge,4,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting
+2024-05-02,47781.9,59666.0,80.08,ridge,5,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting
+2024-05-03,48303.8,59666.0,80.96,ridge,6,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting
+2024-05-04,47351.6,59666.0,79.36,ridge,7,Constant at last observed historical value (2024-04-27) due to contemporaneous reporting

@@ -1,0 +1,47 @@
+{
+  "target": "inpatient_beds_used",
+  "test_period": {
+    "start_date": "2024-04-21",
+    "end_date": "2024-04-27",
+    "sample_count": 7
+  },
+  "train_period": {
+    "start_date": "2020-03-01",
+    "end_date": "2024-04-20",
+    "sample_count": 1512
+  },
+  "capacity_assumptions": {
+    "contemporaneous_capacity_known_in_advance": false,
+    "capacity_treatment": "Inpatient beds capacity is reported contemporaneously with daily census and is NOT assumed known during forecast horizon. It is excluded from autoregressive feature inputs.",
+    "assumed_projected_capacity": 61778.0,
+    "cutoff_date_capacity_value": 61778.0
+  },
+  "model_metrics": {
+    "weekly_seasonal_naive": {
+      "model_name": "Weekly Seasonal Naive (Lag-7 Persistence)",
+      "mae": 1154.29,
+      "rmse": 1375.69,
+      "mape": 2.47,
+      "is_ml": false
+    },
+    "ridge_regression_recursive": {
+      "model_name": "Ridge Regression (Recursive Autoregressive)",
+      "mae": 1000.0,
+      "rmse": 1441.4,
+      "mape": 2.15,
+      "is_ml": true
+    },
+    "xgboost_recursive": {
+      "model_name": "XGBoost Regressor (Recursive Autoregressive)",
+      "mae": 1209.06,
+      "rmse": 1531.0,
+      "mape": 2.59,
+      "is_ml": true
+    }
+  },
+  "evaluation_summary": {
+    "mae_winner": "ridge_regression_recursive",
+    "rmse_winner": "weekly_seasonal_naive",
+    "notes": "Ridge Regression achieves lower MAE than the Seasonal Naive baseline on the 7-day holdout set (1000.0 vs 1154.29), but Seasonal Naive achieves lower RMSE (1375.69 vs 1441.4) because recursive multi-step ML predictions compound errors on later horizon steps. XGBoost underperforms the baseline under recursive rollout."
+  }
+}
